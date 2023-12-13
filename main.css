@@ -1,0 +1,25 @@
+body {
+	background: white;
+	background-image:url("background.jpg");
+	background-size: cover;
+
+}
+
+.tiles {
+	margin: 48px auto;
+	width: max-content;
+	display: grid;
+	grid-template-columns: repeat(4, 100px);
+	gap: 16px;
+	box-sizing: border-box;
+}
+
+.tile {
+	height: 100px;
+	background: #111111;
+	
+	
+	border: 1px solid #444444;
+	/*cursor: pointer;
+}*/
+}
